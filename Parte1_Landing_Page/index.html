@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Energia Solar por assinatura | Solar21</title>
+</head>
+<body window.onload="iniciaContagem()">
+    <header class="cabecalho">
+        <img src="imagens/logo.svg" alt="Logo da Solar21" class="cabecalho_logo">
+    </header>
+    
+    <section class="banner">
+        <div class="banner_camada"></div>
+        <img src="imagens/logo.svg" alt="Logo da Solar21" class="banner_logo">
+        <div class="banner_texto">
+            <p>Falta pouco para um futuro <b>mais sustentável!</b> </p>
+        </div>
+    </section>
+
+    <section class="cronometro">
+        <h2 class="cronometro_titulo"><span class="cronometro_texto">TEMPO QUE VOCÊ ESTÁ DEIXANDO DE ECONOMIZAR</span></h2>
+        <div class="cronometro_timer">
+            <div class="cronometro_contador">
+                <span id="minuto">00</span><span>:</span><span id="segundo">00</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </section>
+
+    <section class="cadastro">
+        <div class="cadastro_titulo_container">
+            <h3 class="cadastro_titulo">Como <b>contratar</b> e <b class="negrito_amarelo">economizar</b>:</h3>
+        </div>
+        <div class="cadastro_lista">
+            <div class="cadastro_item">
+                <div class='cadastro_circulo'>
+                    <div  class='cadastro_numero_container'>
+                    <p class="cadastro_numero">01.</p>
+                    </div>
+                </div>
+                <p class="cadastro_texto">Faça o cadastro em nosso portal de forma simples e rápida</p>
+            </div>
+            <div class="cadastro_item">
+                <div class='cadastro_circulo'>
+                    <div class='cadastro_numero_container'>
+                    <p class="cadastro_numero">02.</p>
+                    </div>
+                </div>
+                <p class="cadastro_texto">Envie sua conta de luz para nossa análise</p>
+            </div>
+            <div class="cadastro_item">
+                <div class='cadastro_circulo'>
+                    <div  class='cadastro_numero_container'>
+                    <p class="cadastro_numero">03.</p>
+                    </div>
+                </div>
+                <p class="cadastro_texto">Faça uma visita técnica gratuita</p>
+            </div>
+            <div class="cadastro_item">
+                <div class='cadastro_circulo'>
+                    <div  class='cadastro_numero_container'>
+                    <p class="cadastro_numero">04.</p>
+                    </div>
+                </div>
+                <p class="cadastro_texto">Assine o contrato digital e pague a mensalidade no cartão de crédito</p>
+            </div>
+        </div>
+        <a href="https://app.solar21.com.br/" class="cadastro_botao">Cadastre-se</a>
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape_itens">
+            <img src="imagens/logo.svg" alt="Logo da Solar21" class="rodape_logo">
+            <div class="rodape_direita">
+                <p class="rodape_texto">Solar21 Tecnologia e Energia Solar LTDA <b class="negrito_amarelo">|</b> contato@solar21.com.br</p>
+                <div class="rodape_icone_container">
+                    <img src="imagens/linkedin.svg" alt="Logo do Linkedin" class="rodape_icone">
+                    <img src="imagens/instagram.svg" alt="Logo do Instagram" class="rodape_icone">
+                    <img src="imagens/youtube.svg" alt="Logo do Youtube" class="rodape_icone">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
